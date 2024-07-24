@@ -1,0 +1,28 @@
+.transaction {
+  width: 550px;
+  border-collapse: collapse;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.transaction tr:nth-child(even) {
+  background-color: rgb(224, 222, 222);
+}
+
+.transaction tr:nth-child(odd) {
+  background-color: white;
+}
+
+.th,
+.td {
+  border: 1px solid #363636;
+  padding: 8px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.th {
+  background-color: #1f1e1e;
+  color: #ddd;
+}

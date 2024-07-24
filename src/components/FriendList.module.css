@@ -1,0 +1,27 @@
+.friend {
+  display: flex;
+  gap: 10px;
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+
+.item {
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+img {
+  margin-top: 10px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.online {
+  color: rgb(10, 190, 10);
+}
+.offline {
+  color: red;
+}
