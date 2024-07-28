@@ -29,17 +29,6 @@ const App = () => {
     ((feedback.good + feedback.neutral) / totalFeedback) * 100
   );
 
-  /*   useEffect(() => {
-    localStorage.setItem("feedback", JSON.stringify(feedback));
-  }, [feedback]);
-
-  useEffect(() => {
-    const savedFeedback = localStorage.getItem("feedback");
-    if (savedFeedback) {
-      setFeedback(JSON.parse(savedFeedback));
-    }
-  }, []); */
-
   const resetClick = () => {
     setFeedback({
       good: 0,
